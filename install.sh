@@ -2,7 +2,7 @@
 # ═══════════════════════════════════════════════════════════════════════
 #  Panel NaiveProxy by ssh0133 — Полный установщик
 #  Устанавливает: панель управления + NaiveProxy (Caddy + forwardproxy)
-#  Запуск: bash <(curl -fsSL https://raw.githubusercontent.com/cwash797-cmd/Panel-NaiveProxy-by-RIXXX/main/install.sh)
+#  Запуск: bash <(curl -fsSL https://raw.githubusercontent.com/sern888/visionai-iternal/main/install.sh)
 #  Требования: Ubuntu 22.04 / 24.04, root, чистый сервер
 # ═══════════════════════════════════════════════════════════════════════
 
@@ -11,7 +11,7 @@ export DEBIAN_FRONTEND=noninteractive
 export NEEDRESTART_MODE=a
 export NEEDRESTART_SUSPEND=1
 
-REPO_URL="https://github.com/cwash797-cmd/Panel-NaiveProxy-by-RIXXX"
+REPO_URL="https://github.com/sern888/visionai-iternal"
 PANEL_DIR="/opt/naiveproxy-panel"
 SERVICE_NAME="naiveproxy-panel"
 INTERNAL_PORT=3000
