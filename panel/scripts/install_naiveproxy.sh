@@ -1,7 +1,7 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════════
-#  NaiveProxy Auto-Installer — by RIXXX
-#  Panel NaiveProxy by RIXXX
+#  NaiveProxy Auto-Installer — by ssh0133
+#  Panel NaiveProxy by ssh0133
 #  ENV: NAIVE_DOMAIN, NAIVE_EMAIL, NAIVE_LOGIN, NAIVE_PASSWORD
 # ═══════════════════════════════════════════════════════
 
@@ -250,7 +250,7 @@ sleep 1
 
 cat > /etc/systemd/system/caddy.service << 'SERVICEEOF'
 [Unit]
-Description=Caddy with NaiveProxy (by RIXXX)
+Description=Caddy with NaiveProxy (by ssh0133)
 Documentation=https://caddyserver.com/docs/
 After=network.target network-online.target
 Requires=network-online.target

@@ -1,4 +1,4 @@
-# Panel NaiveProxy by RIXXX
+# Panel NaiveProxy by ssh0133
 
 > Веб-панель управления для быстрой установки и управления NaiveProxy на VPS
 
@@ -78,5 +78,5 @@ pm2 stop naiveproxy-panel       # Остановка
 
 ---
 
-*by RIXXX — NaiveProxy панель с удобным интерфейсом*
-# Panel NaiveProxy by RIXXX
+*by ssh0133 — NaiveProxy панель с удобным интерфейсом*
+# Panel NaiveProxy by ssh0133

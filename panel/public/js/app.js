@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   Panel NaiveProxy by RIXXX — Frontend App
+   Panel NaiveProxy by ssh0133 — Frontend App
    ═══════════════════════════════════════════════ */
 
 'use strict';

@@ -1,6 +1,6 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════════════════════════
-#  Panel NaiveProxy by RIXXX — Полный установщик
+#  Panel NaiveProxy by ssh0133 — Полный установщик
 #  Устанавливает: панель управления + NaiveProxy (Caddy + forwardproxy)
 #  Запуск: bash <(curl -fsSL https://raw.githubusercontent.com/cwash797-cmd/Panel-NaiveProxy-by-RIXXX/main/install.sh)
 #  Требования: Ubuntu 22.04 / 24.04, root, чистый сервер
@@ -25,7 +25,7 @@ header() {
   clear
   echo ""
   echo -e "${PURPLE}${BOLD}╔══════════════════════════════════════════════════════════╗${RESET}"
-  echo -e "${PURPLE}${BOLD}║        Panel NaiveProxy by RIXXX — Установщик           ║${RESET}"
+  echo -e "${PURPLE}${BOLD}║        Panel NaiveProxy by ssh0133 — Установщик           ║${RESET}"
   echo -e "${PURPLE}${BOLD}╚══════════════════════════════════════════════════════════╝${RESET}"
   echo ""
 }
@@ -283,7 +283,7 @@ sleep 1
 
 cat > /etc/systemd/system/caddy.service << 'SVCEOF'
 [Unit]
-Description=Caddy with NaiveProxy (by RIXXX)
+Description=Caddy with NaiveProxy (by ssh0133)
 Documentation=https://caddyserver.com/docs/
 After=network.target network-online.target
 Requires=network-online.target
@@ -538,7 +538,7 @@ NAIVE_LINK="naive+https://${NAIVE_LOGIN}:${NAIVE_PASS}@${NAIVE_DOMAIN}:443"
 echo ""
 echo -e "${PURPLE}${BOLD}╔══════════════════════════════════════════════════════════════╗${RESET}"
 echo -e "${PURPLE}${BOLD}║                                                              ║${RESET}"
-echo -e "${PURPLE}${BOLD}║   ✅  Panel NaiveProxy by RIXXX — Установка завершена!       ║${RESET}"
+echo -e "${PURPLE}${BOLD}║   ✅  Panel NaiveProxy by ssh0133 — Установка завершена!       ║${RESET}"
 echo -e "${PURPLE}${BOLD}║                                                              ║${RESET}"
 echo -e "${PURPLE}${BOLD}╠══════════════════════════════════════════════════════════════╣${RESET}"
 echo -e "${PURPLE}${BOLD}║                                                              ║${RESET}"
